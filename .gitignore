@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+ComfyUI/output/
+# ComfyUI/input/
+# !/input/example.png
+ComfyUI/models/
+ComfyUI/temp/
+# /custom_nodes/
+# !custom_nodes/example_node.py.example
+# extra_model_paths.yaml
+/.vs
+.vscode/
+.idea/
+venv/
+.venv/
+ComfyUI/web/extensions/*
+!ComfyUI/web/extensions/logging.js.example
+!ComfyUI/web/extensions/core/
+ComfyUI/tests-ui/data/object_info.json
+ComfyUI/user/
+*.log
+ComfyUI/web_custom_versions/
+.DS_Store
+
+# ignore all pytorch model extensions
+*.safetensors
+*.sft
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.onnx
+
+temp/
+requester/logs/
