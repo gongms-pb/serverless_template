@@ -4,19 +4,21 @@ ComfyUI workflow 를 Serverless endpoint 로 배포하기 위한 github reposito
 
 Requirements
 ----------------
-- Workflow API JSON (ComfyUI to Python)
+- Anaconda
+- Workflow API JSON (ComfyUI-to-Python으로 변환한 workflow json 파일)
 - 해당 Workflow 를 실행 가능한 ComfyUI (Custome nodes, models, conda environment 모두 포함)
+- ComfyUI-to-Python-Extension
 
 How to run auto setup
 ----------------
-1. Fork this repository and clone it
+1. Copy this repository
 2. Put workflow JSON file in top directory
 3. Edit variables in git_setup.sh
 4. Run git_setup.sh
 
 Todo after setup
 ----------------
-1. Add and edit workflow python code
+1. Edit workflow.py in ComfyUI
 2. Edit rp_handler.py
 3. Edit Dockerfile
 4. Edit test_input.json
